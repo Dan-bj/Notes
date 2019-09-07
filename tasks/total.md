@@ -1,11 +1,7 @@
 ### 2019-9-6
 ```
-SD晚洗漱
-XY晚洗漱
-sweep the floor
 dust the table
 运动-2
-英语-20课
 技术-day43
 读书-10页
 ```
