@@ -1,10 +1,10 @@
 ```
-跑步           1.90KM
-站姿           1分30秒
-直桥            68/120       12
-水平引体向上      49/90       7
-乌鸦式           60/60       12
-墙壁俯卧撑       124/150     13
-平卧抬膝         48/105      12    146 pages
-支撑深蹲         86/90       23
+Straight bridge       68/120      12
+Horizontal pull-up    49/90       7
+Raven                 60/60       12
+Wall push ups         124/150     13
+Lying on the knee     48/105      12    146 pages
+Support squat         86/90       23
+Running               1.91KM
+Standing              1分31秒
 ```
