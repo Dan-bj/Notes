@@ -1,15 +1,21 @@
-Lesson 57 An unusual day
+Lesson 85 Paris in the spring
 Listen to the tape then answer this question.
-What is Mr. Sawyer doing tonight?
-It is eight o'clock.
-The children go to school by car every day, but today they are going to school on foot.
-It is ten o'clock.
-Mrs. Sawyer usually stays at home in the morning but this morning she is going to the shops.
-It is four o'clock.
-In the afternoon Mrs. Sawyer usually dinks tea in the living room but this afternoon she is drinking tea in the garden.
-It is six o'clock.
-In the evening the children always do their homework but this evening they're not doing their homework.
-At the moment they are playing in the garden.
-It is nine o'clock.
-Mr. Sawyer usually reads his newspaper at night but he's not reading his newspaper tonight.
-At the moment he's reading an interesting book.
+At what time of year did Ken visit Paris?
+Hello Ken.
+Hi, George.
+Have you just been to the cinema?
+Yes, I have.
+What's on?
+Pairs in the spring.
+Oh, I've already seen it.
+I saw it on television last year.
+It's an old film but it's very good.
+Pairs is a beautiful city.
+I've never been there.
+Have you every been there, Ken?
+Yes, I have.
+I were there in April.
+Paris in the spring eh?
+It's was spring but the weather was awful.
+It rained all the time.
+Just like London.
