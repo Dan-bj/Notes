@@ -1,21 +1,24 @@
-Lesson 85 Paris in the spring
+Lesson 105 Full of mistakes
 Listen to the tape then answer this question.
-At what time of year did Ken visit Paris?
-Hello Ken.
-Hi, George.
-Have you just been to the cinema?
-Yes, I have.
-What's on?
-Pairs in the spring.
-Oh, I've already seen it.
-I saw it on television last year.
-It's an old film but it's very good.
-Pairs is a beautiful city.
-I've never been there.
-Have you every been there, Ken?
-Yes, I have.
-I were there in April.
-Paris in the spring eh?
-It's was spring but the weather was awful.
-It rained all the time.
-Just like London.
+What was Sandra's present?
+Where's Sandra, Bob?
+I want her.
+Do you want to speak to her?
+Yes, I do.
+I want her to come to my office.
+Tell her to come at once.
+Did you want to see me?
+Ah, yes, Sandra.
+How do you spell intelligent?
+Can you tell me?
+Intelligent.
+That's right.
+You've typed it with only on L.
+This letter's full of mistakes.
+I want you to type it again.
+Yes, I'll do that.
+I'm sorry about that.
+And here's a little present for you.
+What is it?
+It's a dictionary.
+I hope it'll help you.

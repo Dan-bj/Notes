@@ -1,5 +1,5 @@
 ```
-expenditure: 20
-income:5
--15
+expenditure: 30
+income:10
+-20
 ```
