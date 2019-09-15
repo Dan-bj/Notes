@@ -1,12 +1,10 @@
-
-7
 ```
-Straight bridge              69/120      13
-Horizontal pull-up           50/90       7
-Standing against the wall    10/120s     5     217p\
-Wall push ups                125/150     14
-Lying on the knee            49/105      13    146p
-Support squat                87/90       23
-Running                      1.92KM
-Standing                     1分32秒
+Lying on the knee            50/105      14    146p
+Support squat                88/90       23
+Running                      1.93KM
+Standing                     1分33秒
+Straight bridge              72/120      15
+Horizontal pull-up           52/90       8
+Standing against the wall    11/120s     5     217p
+Wall push ups                127/150     16
 ```
