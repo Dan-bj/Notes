@@ -59,4 +59,132 @@ CSS 规则由两个主要的部分构成：1.选择器 2.一条或多条声明�
 
     注意，关于标签嵌套：
         一般，块级元素可以包含内联元素或某些块级元素，但内联元素不能包含块级元素，它只能包含其它内联元素。需要注意的是，p标签不能包含块级标签。
+
+
+属性选择器
+    E[att]          匹配所有具有att属性的E元素，不考虑它的值。（注意：E在此处可以省略。比如“[cheacked]”。以下同。）
+                    p[title] { color:#f00; }
+
+    E[att=val]      匹配所有att属性等于“val”的E元素
+                    div[class=”error”] { color:#f00; }
+
+    E[att~=val]     匹配所有att属性具有多个空格分隔的值、其中一个值等于“val”的E元素
+                    td[class~=”name”] { color:#f00; }
+ 
+    E[attr^=val]    匹配属性值以指定值开头的每个元素                    
+                    div[class^="test"]{background:#ffff00;}
+ 
+    E[attr$=val]    匹配属性值以指定值结尾的每个元素
+                    div[class$="test"]{background:#ffff00;}
+ 
+    E[attr*=val]    匹配属性值中包含指定值的每个元素
+                    div[class*="test"]{background:#ffff00;}
+
+
+
+伪类
+    anchor伪类：专用于控制链接的显示效果
+        a:link（没有接触过的链接）,用于定义了链接的常规状态。
+
+        a:hover（鼠标放在链接上的状态）,用于产生视觉效果。
+        
+        a:visited（访问过的链接）,用于阅读文章，能清楚的判断已经访问过的链接。
+        
+        a:active（在链接上按下鼠标时的状态）,用于表现鼠标按下时的链接状态。
+        
+        伪类选择器 : 伪类指的是标签的不同状态:
+        
+            a ==> 点过状态 没有点过的状态 鼠标悬浮状态 激活状态
+        
+        a:link {color: #FF0000} /* 未访问的链接 */
+        
+        a:visited {color: #00FF00} /* 已访问的链接 */
+        
+        a:hover {color: #FF00FF} /* 鼠标移动到链接上 */
+        
+        a:active {color: #0000FF} /* 选定的链接 */ 格式: 标签:伪类名称{ css代码; }
+
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Title</title>
+            <style>
+                .top{
+                    background-color: rebeccapurple;
+                    width: 100px;
+                    height: 100px;
+                }
+                .bottom{
+                    background-color: green;
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .outer:hover .bottom{
+                    background-color: yellow;
+                }
+
+                注意:一定是outer:hover  控制outer里某一个标签,否则无效
+
+                .top:hover .bottom{
+                    background-color: yellow;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="outer">
+                <div class="top">top</div>
+                <div class="bottom">bottom</div>
+            </div>
+        </body>
+    </html>
+
+
+before after伪类 
+    :before    p:before       在每个<p>元素之前插入内容     
+    :after     p:after        在每个<p>元素之后插入内容     
+
+    例：p:before{content:"hello";color:red;display: block;}
+
+
+
+选择器的优先级　
+    css的继承
+        继承是CSS的一个主要特征，它是依赖于祖先-后代的关系的。继承是一种机制，它允许样式不仅可以应用于某个特定的元素，还可以应用于它的后代。例如一个BODY定义了的颜色值也会应用到段落的文本中。
+        
+        body{color:red;}       <p>helloyuan</p>
+        这段文字都继承了由body {color:red;}样式定义的颜色。然而CSS继承性的权重是非常低的，是比普通元素的权重还要低的0。
+
+        p{color:green}
+        发现只需要给加个颜色值就能覆盖掉它继承的样式颜色。由此可见：任何显示申明的规则都可以覆盖其继承样式。
+
+        此外，继承是CSS重要的一部分，我们甚至不用去考虑它为什么能够这样，但CSS继承也是有限制的。有一些属性不能被继承，如：border, margin, padding, background等。
+        div{
+            border:1px solid #222
+        }
+
+        <div>
+            hello
+            <p>yuan</p>
+        </div>
+    
+
+    css的优先级
+        所谓CSS优先级，即是指CSS样式在浏览器中被解析的先后顺序。
+
+
+        样式表中的特殊性描述了不同规则的相对权重，它的基本规则是：
+            1 内联样式表的权值最高             style=""－－－－－－－－－－－－ 1000；
+            2 统计选择符中的ID属性个数。       #id －－－－－－－－－－－－－－ 100
+            3 统计选择符中的CLASS属性个数。    .class －－－－－－－－－－－－－ 10
+            4 统计选择符中的HTML标签名个数。    p －－－－－－－－－－－－－-－ 1
+            按这些规则将数字符串逐位相加，就得到最终的权重，然后在比较取舍时按照从左到右的顺序逐位比较。
+
+
+        1. 文内的样式优先级为1,0,0,0，所以始终高于外部定义。
+        2. 有!important声明的规则高于一切。
+        3、如果!important声明冲突，则比较优先权。
+        4、如果优先权一样，则按照在源码中出现的顺序决定，后来者居上。
+        5、由继承而得到的样式没有specificity的计算，它低于一切其它规则(比如全局选择符*定义的规则)。
 ```
